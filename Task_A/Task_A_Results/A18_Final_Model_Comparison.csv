@@ -1,0 +1,4 @@
+"Model","R_Squared","Adjusted_R_Squared","Residual_Standard_Error"
+"Simple Model - Airport Traffic",0.1485,0.1442,49821.27
+"Full Multiple Model - Six Predictors",0.1789,0.1534,49554.65
+"Reduced Model - Airport Traffic + Fuel Price",0.1678,0.1593,49380.51

@@ -1,0 +1,11 @@
+"Metric","Value"
+"Number of Nodes",15
+"Number of Edges",28
+"Network Density",0.2667
+"Connected",1
+"Connected Components",1
+"Average Path Length",2
+"Network Diameter",4
+"Global Clustering Coefficient",0.2784
+"Number of Communities",4
+"Modularity",0.3313

@@ -1,0 +1,4 @@
+"Removed_Node","Remaining_Nodes","Remaining_Edges","Connected","Components","Density","Average_Path_Length"
+"Cargo Operators",14,21,FALSE,2,0.2308,NA
+"Fuel Supply Companies",14,23,FALSE,2,0.2527,NA
+"Customs & Immigration",14,22,TRUE,1,0.2418,2.088

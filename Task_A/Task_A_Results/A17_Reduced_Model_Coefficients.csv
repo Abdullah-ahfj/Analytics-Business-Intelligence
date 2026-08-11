@@ -1,0 +1,4 @@
+"Variable","Estimate","Standard_Error","T_Value","P_Value","Significant"
+"(Intercept)",-29591.5836,27646.4475,-1.07,0.28577,"No"
+"airport_traffic",0.4676,0.0759,6.162,0,"Yes"
+"fuel_price",50536.4829,23690.7742,2.133,0.03415,"Yes"

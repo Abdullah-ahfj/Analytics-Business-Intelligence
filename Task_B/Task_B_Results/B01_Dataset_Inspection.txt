@@ -1,0 +1,38 @@
+TASK B - NETWORK DATASET INSPECTION
+===================================
+
+Number of Relationships (Edges):
+[1] 28
+
+Number of Stakeholders (Nodes):
+[1] 15
+
+Stakeholders:
+ [1] "Air Traffic Control (ATC)"                     
+ [2] "Airport & Aviation Services SL (AASL)"         
+ [3] "Bandaranaike International Airport (CMB)"      
+ [4] "Cargo Operators"                               
+ [5] "Civil Aviation Authority of Sri Lanka (CAASL)" 
+ [6] "Customs & Immigration"                         
+ [7] "Fuel Supply Companies"                         
+ [8] "Ground Handling Unit"                          
+ [9] "International Airlines"                        
+[10] "Maintenance & Engineering"                     
+[11] "Mattala Rajapaksa International Airport (MRIA)"
+[12] "Mihin Lanka"                                   
+[13] "Sri Lanka Air Force"                           
+[14] "SriLankan Airlines"                            
+[15] "Tourism Authority"                             
+
+Relationship Types:
+
+ Commercial Operational  Regulatory     Support 
+         10           6           5           7 
+
+Edge Weight Summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  1.000   2.000   4.000   4.643   7.000   9.000 
+
+Missing Values:
+      Source       Target Relationship       Weight 
+           0            0            0            0 

@@ -1,0 +1,59 @@
+TASK B - NETWORK STRUCTURE ANALYSIS
+===================================
+
+Network Structure Summary:
+                          Metric   Value
+1                Number of Nodes 15.0000
+2                Number of Edges 28.0000
+3                Network Density  0.2667
+4                      Connected  1.0000
+5           Connected Components  1.0000
+6            Average Path Length  2.0000
+7               Network Diameter  4.0000
+8  Global Clustering Coefficient  0.2784
+9          Number of Communities  4.0000
+10                    Modularity  0.3313
+
+Community Membership:
+                                      Stakeholder Community
+1        Bandaranaike International Airport (CMB)         1
+8                            Ground Handling Unit         1
+10                          Fuel Supply Companies         1
+12                          Customs & Immigration         1
+13                         International Airlines         1
+2  Mattala Rajapaksa International Airport (MRIA)         2
+4           Airport & Aviation Services SL (AASL)         2
+5                              SriLankan Airlines         2
+14                              Tourism Authority         2
+15                                Cargo Operators         2
+3   Civil Aviation Authority of Sri Lanka (CAASL)         3
+6                                     Mihin Lanka         3
+9                       Air Traffic Control (ATC)         3
+7                             Sri Lanka Air Force         4
+11                      Maintenance & Engineering         4
+
+Node Failure Analysis:
+                              Removed_Node Remaining_Nodes Remaining_Edges Connected
+1                Air Traffic Control (ATC)              14              24      TRUE
+2                     Ground Handling Unit              14              27      TRUE
+3 Bandaranaike International Airport (CMB)              14              23      TRUE
+4                          Cargo Operators              14              21     FALSE
+5                    Fuel Supply Companies              14              23     FALSE
+6                    Customs & Immigration              14              22      TRUE
+  Components Density Average_Path_Length
+1          1  0.2637               2.055
+2          1  0.2967               1.901
+3          1  0.2527               2.088
+4          2  0.2308                  NA
+5          2  0.2527                  NA
+6          1  0.2418               2.088
+
+Top Bridge Failure Analysis:
+           Removed_Node Remaining_Nodes Remaining_Edges Connected Components Density
+1       Cargo Operators              14              21     FALSE          2  0.2308
+2 Fuel Supply Companies              14              23     FALSE          2  0.2527
+3 Customs & Immigration              14              22      TRUE          1  0.2418
+  Average_Path_Length
+1                  NA
+2                  NA
+3               2.088

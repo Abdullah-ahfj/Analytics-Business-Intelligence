@@ -1,0 +1,7 @@
+"Removed_Node","Remaining_Nodes","Remaining_Edges","Connected","Components","Density","Average_Path_Length"
+"Air Traffic Control (ATC)",14,24,TRUE,1,0.2637,2.055
+"Ground Handling Unit",14,27,TRUE,1,0.2967,1.901
+"Bandaranaike International Airport (CMB)",14,23,TRUE,1,0.2527,2.088
+"Cargo Operators",14,21,FALSE,2,0.2308,NA
+"Fuel Supply Companies",14,23,FALSE,2,0.2527,NA
+"Customs & Immigration",14,22,TRUE,1,0.2418,2.088

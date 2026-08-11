@@ -1,0 +1,86 @@
+PEARSON CORRELATION ANALYSIS
+============================
+
+Airport Traffic vs Passenger Demand
+
+	Pearson's product-moment correlation
+
+data:  air_data$airport_traffic and air_data$passenger_demand
+t = 5.8771, df = 198, p-value = 1.746e-08
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.2605941 0.4975381
+sample estimates:
+     cor 
+0.385401 
+
+
+Average Income vs Passenger Demand
+
+	Pearson's product-moment correlation
+
+data:  air_data$avg_income and air_data$passenger_demand
+t = 0.69808, df = 198, p-value = 0.4859
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.08980908  0.18700478
+sample estimates:
+       cor 
+0.04954933 
+
+
+Fuel Price vs Passenger Demand
+
+	Pearson's product-moment correlation
+
+data:  air_data$fuel_price and air_data$passenger_demand
+t = 1.21, df = 198, p-value = 0.2277
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.05370386  0.22178029
+sample estimates:
+       cor 
+0.08567551 
+
+
+Average Ticket Fare vs Passenger Demand
+
+	Pearson's product-moment correlation
+
+data:  air_data$avg_ticket_fare and air_data$passenger_demand
+t = -0.4279, df = 198, p-value = 0.6692
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.1684264  0.1088042
+sample estimates:
+        cor 
+-0.03039567 
+
+
+Flight Frequency vs Passenger Demand
+
+	Pearson's product-moment correlation
+
+data:  air_data$flight_frequency and air_data$passenger_demand
+t = 0.7356, df = 198, p-value = 0.4628
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.08716655  0.18957374
+sample estimates:
+       cor 
+0.05220582 
+
+
+Route Distance vs Passenger Demand
+
+	Pearson's product-moment correlation
+
+data:  air_data$route_distance and air_data$passenger_demand
+t = -0.5797, df = 198, p-value = 0.5628
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.17888217  0.09813873
+sample estimates:
+        cor 
+-0.04116275 
+

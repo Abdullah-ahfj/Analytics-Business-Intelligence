@@ -1,0 +1,7 @@
+"Variable","Correlation","P_Value","Significant"
+"Airport Traffic",0.385,0,"Yes"
+"Average Income",0.05,0.48595,"No"
+"Fuel Price",0.086,0.22772,"No"
+"Average Ticket Fare",-0.03,0.66919,"No"
+"Flight Frequency",0.052,0.46284,"No"
+"Route Distance",-0.041,0.56277,"No"

@@ -1,0 +1,34 @@
+SIMPLE LINEAR REGRESSION
+========================
+
+Dependent Variable: Passenger Demand
+Independent Variable: Airport Traffic
+
+
+Call:
+lm(formula = passenger_demand ~ airport_traffic, data = air_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-144234  -31671       9   32371  124420 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     1.954e+04  1.543e+04   1.267    0.207    
+airport_traffic 4.459e-01  7.587e-02   5.877 1.75e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 49820 on 198 degrees of freedom
+Multiple R-squared:  0.1485,	Adjusted R-squared:  0.1442 
+F-statistic: 34.54 on 1 and 198 DF,  p-value: 1.746e-08
+
+
+Regression Coefficients
+    (Intercept) airport_traffic 
+   1.954228e+04    4.458908e-01 
+
+95% Confidence Intervals
+                        2.5 %       97.5 %
+(Intercept)     -1.087974e+04 4.996431e+04
+airport_traffic  2.962749e-01 5.955066e-01

@@ -1,0 +1,8 @@
+"Variable","Estimate","Standard_Error","T_Value","P_Value","Significant"
+"(Intercept)",-37745.0564,47291.4279,-0.798,0.42577,"No"
+"airport_traffic",0.4759,0.0772,6.167,0,"Yes"
+"avg_income",0.0805,0.3021,0.267,0.7901,"No"
+"fuel_price",53537.8375,23998.9014,2.231,0.02684,"Yes"
+"avg_ticket_fare",-111.7682,88.5458,-1.262,0.20838,"No"
+"flight_frequency",221.2152,189.1313,1.17,0.24359,"No"
+"route_distance",-0.3826,8.6321,-0.044,0.9647,"No"

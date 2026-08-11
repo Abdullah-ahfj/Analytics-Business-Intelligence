@@ -1,0 +1,48 @@
+REDUCED MULTIPLE REGRESSION MODEL
+=================================
+
+Dependent Variable: Passenger Demand
+
+Predictors:
+- Airport Traffic
+- Fuel Price
+
+
+Call:
+lm(formula = passenger_demand ~ airport_traffic + fuel_price, 
+    data = air_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-145108  -30348     608   30459  119436 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     -2.959e+04  2.765e+04  -1.070   0.2858    
+airport_traffic  4.676e-01  7.588e-02   6.162 3.97e-09 ***
+fuel_price       5.054e+04  2.369e+04   2.133   0.0341 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 49380 on 197 degrees of freedom
+Multiple R-squared:  0.1678,	Adjusted R-squared:  0.1593 
+F-statistic: 19.85 on 2 and 197 DF,  p-value: 1.395e-08
+
+
+Regression Coefficients
+    (Intercept) airport_traffic      fuel_price 
+  -2.959158e+04    4.676139e-01    5.053648e+04 
+
+95% Confidence Intervals
+                        2.5 %       97.5 %
+(Intercept)     -8.411256e+04 2.492940e+04
+airport_traffic  3.179634e-01 6.172643e-01
+fuel_price       3.816404e+03 9.725656e+04
+
+Residual Normality Test
+
+	Shapiro-Wilk normality test
+
+data:  residuals(reduced_model)
+W = 0.99453, p-value = 0.6797
+

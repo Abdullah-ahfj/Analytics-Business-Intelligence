@@ -1,0 +1,60 @@
+COVER PAGE
+
+TABLE OF CONTENTS
+
+LIST OF FIGURES
+
+1. INTRODUCTION
+
+2. PASSENGER DEMAND STATISTICAL ANALYSIS
+   2.1 Dataset and Variables
+   2.2 Descriptive Statistics
+   2.3 Normality Testing
+   2.4 Correlation Analysis
+   2.5 Simple Linear Regression
+   2.6 Multiple Linear Regression
+   2.7 Statistical Model
+   2.8 Business Interpretation
+
+3. AVIATION NETWORK ANALYSIS
+   3.1 Network Dataset
+   3.2 Network Visualisation
+   3.3 Degree Centrality
+   3.4 Betweenness Centrality
+   3.5 Network Structure
+   3.6 Vulnerability Analysis
+   3.7 Recommendations
+
+4. GEOSPATIAL RADAR DEPLOYMENT ANALYSIS
+   4.1 Georeferencing
+   4.2 Digitisation
+   4.3 Geospatial Database
+   4.4 SMR Suitability Analysis
+   4.5 PSR/SSR Suitability Analysis
+   4.6 Building and Land Analysis
+   4.7 Radar Deployment Recommendations
+
+5. BUSINESS INTELLIGENCE DASHBOARD
+   5.1 Dashboard Development
+   5.2 Flight Operations
+   5.3 Delay Analysis
+   5.4 International Traffic
+   5.5 Alerts and Bottlenecks
+   5.6 Business Intelligence Findings
+
+6. CONCLUSION
+
+REFERENCES
+
+APPENDIX A – Task A Screenshots
+APPENDIX B – Task B Screenshots
+APPENDIX C – Task C Screenshots
+APPENDIX D – Task D Screenshots
+
+
+
+Hair, J.F., Black, W.C., Babin, B.J. and Anderson, R.E. (2019) Multivariate Data Analysis. 8th edn. Cengage Learning.
+
+Field, A. (2024) Discovering Statistics Using IBM SPSS Statistics. 6th edn. London: SAGE Publications Ltd.
+
+Hair, J.F., Black, W.C., Babin, B.J. and Anderson, R.E. (2019) Multivariate Data Analysis. 8th edn. Andover: Cengage Learning.
